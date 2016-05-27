@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesperE_MVC_2016_05", "Jesp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesperE_MVC_2016_05_Uppgift4", "JesperE_MVC_2016_05_Uppgift4\JesperE_MVC_2016_05_Uppgift4.csproj", "{7E3D75B2-75FD-4953-BF02-072ADB82C619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesperE_MVC_2016_05_Uppgift3", "JesperE_MVC_2016_05_Uppgift3\JesperE_MVC_2016_05_Uppgift3.csproj", "{EE87500E-1DB0-43BA-A7F2-6BA2280B66A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JesperE_MVC_2016_05_Uppgift3.Tests", "JesperE_MVC_2016_05_Uppgift3.Tests\JesperE_MVC_2016_05_Uppgift3.Tests.csproj", "{F27D2835-9078-41D9-B970-CA7A63D151C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7E3D75B2-75FD-4953-BF02-072ADB82C619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E3D75B2-75FD-4953-BF02-072ADB82C619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E3D75B2-75FD-4953-BF02-072ADB82C619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE87500E-1DB0-43BA-A7F2-6BA2280B66A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE87500E-1DB0-43BA-A7F2-6BA2280B66A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE87500E-1DB0-43BA-A7F2-6BA2280B66A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE87500E-1DB0-43BA-A7F2-6BA2280B66A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27D2835-9078-41D9-B970-CA7A63D151C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D2835-9078-41D9-B970-CA7A63D151C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D2835-9078-41D9-B970-CA7A63D151C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D2835-9078-41D9-B970-CA7A63D151C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

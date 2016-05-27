@@ -18,5 +18,11 @@ namespace JesperE_MVC_2016_05.Controllers
         {
             return PartialView();
         }
+
+        public PartialViewResult Create()
+        {
+            return PartialView();
+        }
+
     }
 }

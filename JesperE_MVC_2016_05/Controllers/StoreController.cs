@@ -13,11 +13,13 @@ namespace JesperE_MVC_2016_05.Controllers
         public ActionResult Index()
         {
             List<Store> Stores = new List<Store>() {new Store() {
-                    Name = "ToysRus",
+                StoreID = 1,
+                Name = "ToysRus",
                     Address = "Leksaksgatan 2",
                     Products = new List<Product>()
                     { new Product()
                     {
+                        ProductID = 0,
                         Name = "Hello Kitty",
                         Price = 12.33d,
                         ProductNumber = 1313131,
@@ -25,6 +27,7 @@ namespace JesperE_MVC_2016_05.Controllers
                         ProductText = "Rolig kissekatt"
                     },new Product()
                     {
+                        ProductID = 1,
                         Name = "Dinosaur",
                         Price = 22.44d,
                         ProductNumber = 3232323,
@@ -33,11 +36,13 @@ namespace JesperE_MVC_2016_05.Controllers
                     }
                     }
             },new Store(){
+                StoreID = 2,
                     Name = "Klädesbutiken",
                     Address = "Klädgatan 2",
                     Products = new List<Product>()
                     { new Product()
                     {
+                        ProductID = 5,
                         Name = "Hello Kitty tröja",
                         Price = 122.33d,
                         ProductNumber = 1443131,
@@ -45,6 +50,7 @@ namespace JesperE_MVC_2016_05.Controllers
                         ProductText = "Rolig kissekatt tröja"
                     },new Product()
                     {
+                        ProductID = 6,
                         Name = "Dinosaurie byxor",
                         Price = 222.44d,
                         ProductNumber = 3442323,
@@ -60,10 +66,11 @@ namespace JesperE_MVC_2016_05.Controllers
         }
 
         // GET: Store/Details/5
-        public ActionResult Details(string id)
+        public ActionResult Details(int id)
         {
-
-            return View(id);
+            List < Store > stores= (List<Store>) Session["stores"];
+            Store store = stores[id];
+          return View(store);
         }
 
         // GET: Store/Create
